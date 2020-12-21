@@ -1,0 +1,1209 @@
+
+<!-- Codigo fuente de html5 de la pagina web de basic template -->
+<!DOCTYPE html>
+<!-- lenguaje en ingles -->
+<html lang="en" id="myhtml">
+<!-- encabezado -->
+<head>
+    <!-- caracteres especiales -->
+    <meta charset="UTF-8">
+    <!-- responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compatibilidad con internet explore -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Descripcion -->
+    <meta name="description" content="Pagina Web componentes de bootstrap, angular, jquery, react y muchas cosas mas">
+    <!-- titulo -->
+    <title>Templates Example</title>
+    <!-- icono -->
+    <link rel="icon" href="img/logo/favicon.ico">
+    <!-- iconos de font awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- estilos de css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- boostrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/owl.carousel.css">
+</head>
+<!-- cuerpo de la pagina we -->
+<body id="mybody" onload="myFunction()" >
+    <!-- codigo del cuerpo  -->
+
+    <!-- preloader area -->
+    <div class="loader_bg" id="loader_bg" >
+        <div class="loader"><img src="img/preload/loading.gif" alt="#" /></div>
+    </div>
+
+    <!-- menu -->
+    <header class="menu-header">
+        <nav class="menu-bar-red">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-5 col-lg-5 col-md-6">
+                        <strong class="bar-red-h1">
+                            Phone: 
+                        </strong>
+                        <span class="bar-red-span">555 555 555</span>
+                        <strong class="bar-red-h1">
+                            Email: 
+                        </strong>
+                        <span class="bar-red-span">music.site@melodi.com</span>
+                    </div>
+                    <div class="col-xl-7 col-lg-7 col-md-6">
+                        <ul class="list-red">
+
+                            <li class="fb">
+                                <span class="fa fa-facebook"></span>
+                            </li>
+                            <li class="tw">
+                                <span class="fa fa-twitter"></span>
+                            </li>
+                            <li class="go">
+                                <span class="fa fa-google-plus"></span>
+                            </li>
+                            <li class="in">
+                                <span class="fa fa-linkedin"></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav class="menu-bar-info">
+            <div class="row">
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-4">
+                    <div class="logo">
+                        <figure class="logo-figure-menu">
+                            <img src="img/logo/logo.png" alt="logo" class="logo-img">
+                        </figure>
+                    </div>                    
+                </div>
+                <div class="col-sm-9 col-8 d-md-none d-sm-block">
+                    <div class="icon-menu">
+                        <figure class="icon-figure-menu">
+                            <svg id="btnMenu" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-list icon-menu-btn" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                            </svg>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-xl-10 col-lg-10 col-md-10 ">
+                    <ul class="list-menu-info">
+                        <li>
+                            <strong class="items-menu">
+                                <a href="#latest">Latest Album</a>  
+                            </strong>
+                        </li>
+                        <li>
+                            <strong class="items-menu">
+                                <a href="#album">Featured Album</a>                
+                            </strong>
+                        </li>
+                        <li>
+                            <strong class="items-menu">
+                                <a href="#join">Join Us </a>                          
+                            </strong>
+                        </li>
+                        <li>
+                            <strong class="items-menu">
+                                <a href="#portafolio">Portfolio</a>
+                            </strong>
+                        </li>
+                        <li>
+                            <strong class="items-menu">
+                                <a href="#events">Events</a>
+                            </strong>
+                        </li>
+                        <li>
+                            <strong class="items-menu">
+                                <a href="#team">Team</a>
+                                
+                            </strong>
+                        </li>
+                        <li>
+                            <strong class="items-menu">
+                                <a href="#contact">Contact</a>
+                            </strong>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- info principal -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="info-box">
+                    <h1 class="info-h1">
+                        <span class="fa fa-music icon-info-box"></span> Melodi For You!
+                    </h1>
+                    <p class="info-p">
+                        Find More Innovative & Creative Music Albums.
+                    </p>
+                    <button class="info-btn">Download Here</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- latest album -->
+    <div class="container-fluid" id="latest">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+                <div class="album-box">
+                    <h1 class="album-h1">
+                        Latest Album
+                    </h1>
+                    <hr class="album-hr" />
+                    <p class="album-p">
+                        We sing the best <span class="album-text-red">Songs</span> and now we control the world best <span class="album-text-red">Music</span>.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row album-box">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 text-center">
+                <div class="album-box-info">
+                    <figure class="album-figure">
+                        <img src="img/album/1.jpg" alt="music" class="album-img-responsive album-img">
+                        <img src="img/album/disk.png" alt="music" class="album-img-responsive album-img-disk">    
+                    </figure>
+                    <div class="album-details">
+                        <h1 class="album-info-h1">
+                            PERFECT MELODI
+                        </h1>
+                        <h2 class="album-info-h2">
+                            By Himanshu
+                        </h2>
+                        <p class="album-info-p">
+                            Lorem Ipsum has been the industry's standard dummy text ever since 1500.
+                        </p>
+                        <button class="album-info-btn" id="playNowBtn"><span class="fa fa-play"></span> Play Now</button>    
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="album-play">
+                    <ul class="album-list">
+                        <li class="row album-play">
+                            <div class="col-md-8 col-sm-10 col-8 album-list-info">
+                                <h3 class="album-list-h3">
+                                    Melodi Song Track One
+                                </h3>
+                                <p class="album-list-p">
+                                    <strong>Album</strong>
+                                    : Title &nbsp;|&nbsp; 
+                                    <strong>Type</strong>
+                                    : Rock &nbsp;|&nbsp; 
+                                    <strong>Singer</strong>
+                                    : Dawn
+                                </p>
+                            </div>
+                            <div class="col-md-4 col-sm-2 col-4 album-list-icon">
+                                <a href="#"><i class="fa fa-pause"></i></a>
+                                <a href="#"><i class="fa fa-play"></i></a>                              
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="album-list" style="margin-top: 2% !important;">
+                        <li class="row album-play">
+                            <div class="col-md-8 col-sm-10 col-8 album-list-info">
+                                <h3 class="album-list-h3">
+                                    Melodi Song Track Two
+                                </h3>
+                                <p class="album-list-p">
+                                    <strong>Album</strong>
+                                    : Title &nbsp;|&nbsp; 
+                                    <strong>Type</strong>
+                                    : Rock &nbsp;|&nbsp; 
+                                    <strong>Singer</strong>
+                                    : Dawn
+                                </p>
+                            </div>
+                            <div class="col-md-4 col-sm-2 col-4 album-list-icon">
+                                <a href="#"><i class="fa fa-pause"></i></a>
+                                <a href="#"><i class="fa fa-play"></i></a>                              
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="album-list" style="margin-top: 2% !important;">
+                        <li class="row album-play">
+                            <div class="col-md-8 col-sm-10 col-8 album-list-info">
+                                <h3 class="album-list-h3">
+                                    Melodi Song Track Three
+                                </h3>
+                                <p class="album-list-p">
+                                    <strong>Album</strong>
+                                    : Title &nbsp;|&nbsp; 
+                                    <strong>Type</strong>
+                                    : Rock &nbsp;|&nbsp; 
+                                    <strong>Singer</strong>
+                                    : Dawn
+                                </p>
+                            </div>
+                            <div class="col-md-4 col-sm-2 col-4 album-list-icon">
+                                <a href="#"><i class="fa fa-pause"></i></a>
+                                <a href="#"><i class="fa fa-play"></i></a>                              
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="album-list" style="margin-top: 2% !important;">
+                        <li class="row album-play">
+                            <div class="col-md-8 col-sm-10 col-8 album-list-info">
+                                <h3 class="album-list-h3">
+                                    Melodi Song Track Four
+                                </h3>
+                                <p class="album-list-p">
+                                    <strong>Album</strong>
+                                    : Title &nbsp;|&nbsp; 
+                                    <strong>Type</strong>
+                                    : Rock &nbsp;|&nbsp; 
+                                    <strong>Singer</strong>
+                                    : Dawn
+                                </p>
+                            </div>
+                            <div class="col-md-4 col-sm-2 col-4 album-list-icon">
+                                <a href="#"><i class="fa fa-pause"></i></a>
+                                <a href="#"><i class="fa fa-play"></i></a>                              
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="album-list" style="margin-top: 2% !important;">
+                        <li class="row album-play">
+                            <div class="col-md-8 col-sm-10 col-8 album-list-info">
+                                <h3 class="album-list-h3">
+                                    Melodi Song Track Five
+                                </h3>
+                                <p class="album-list-p">
+                                    <strong>Album</strong>
+                                    : Title &nbsp;|&nbsp; 
+                                    <strong>Type</strong>
+                                    : Rock &nbsp;|&nbsp; 
+                                    <strong>Singer</strong>
+                                    : Dawn
+                                </p>
+                            </div>
+                            <div class="col-md-4 col-sm-2 col-4 album-list-icon">
+                                <a href="#"><i class="fa fa-pause"></i></a>
+                                <a href="#"><i class="fa fa-play"></i></a>                              
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="album-list" style="margin-top: 2% !important;">
+                        <li class="row album-play">
+                            <div class="col-md-8 col-sm-10 col-8 album-list-info">
+                                <h3 class="album-list-h3">
+                                    Melodi Song Track Six
+                                </h3>
+                                <p class="album-list-p">
+                                    <strong>Album</strong>
+                                    : Title &nbsp;|&nbsp; 
+                                    <strong>Type</strong>
+                                    : Rock &nbsp;|&nbsp; 
+                                    <strong>Singer</strong>
+                                    : Dawn
+                                </p>
+                            </div>
+                            <div class="col-md-4 col-sm-2 col-4 album-list-icon">
+                                <a href="#"><i class="fa fa-pause"></i></a>
+                                <a href="#"><i class="fa fa-play"></i></a>                              
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="album-list" style="margin-top: 2% !important;">
+                        <li class="row album-play">
+                            <div class="col-md-8 col-sm-10 col-8 album-list-info">
+                                <h3 class="album-list-h3">
+                                    Melodi Song Track Seven
+                                </h3>
+                                <p class="album-list-p">
+                                    <strong>Album</strong>
+                                    : Title &nbsp;|&nbsp; 
+                                    <strong>Type</strong>
+                                    : Rock &nbsp;|&nbsp; 
+                                    <strong>Singer</strong>
+                                    : Dawn
+                                </p>
+                            </div>
+                            <div class="col-md-4 col-sm-2 col-4 album-list-icon">
+                                <a href="#"><i class="fa fa-pause"></i></a>
+                                <a href="#"><i class="fa fa-play"></i></a>                              
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="album-list" style="margin-top: 2% !important;">
+                        <li class="row album-play">
+                            <div class="col-md-8 col-sm-10 col-8 album-list-info">
+                                <h3 class="album-list-h3">
+                                    Melodi Song Track Eight
+                                </h3>
+                                <p class="album-list-p">
+                                    <strong>Album</strong>
+                                    : Title &nbsp;|&nbsp; 
+                                    <strong>Type</strong>
+                                    : Rock &nbsp;|&nbsp; 
+                                    <strong>Singer</strong>
+                                    : Dawn
+                                </p>
+                            </div>
+                            <div class="col-md-4 col-sm-2 col-4 album-list-icon">
+                                <a href="#"><i class="fa fa-pause"></i></a>
+                                <a href="#"><i class="fa fa-play"></i></a>                              
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- art music -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 text-center">
+                <div class="art-box">
+                    <h1 class="art-h1">
+                        Music An Art...
+                    </h1>
+                    <p class="art-p">
+                        Music is an art form and cultural activity whose medium is sound organized 
+                        in time. The common elements of music are <span class="art-span">pitch</span>, <span class="art-span">rhythm</span>, 
+                        <span class="art-span">dynamics</span> and the sonic qualities of <span class="art-span">timbre</span> and <span class="art-span">texture</span>.
+                    </p>
+                    <a href="#" class="art-a">
+                        <span class="fa fa-play-circle"></span>
+                    </a>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+    <!-- feature album -->
+    <div class="container-fluid" id="album">
+        <div class="feature-album-box">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 text-center">
+                    <div class="feature-box">
+                        <h1 class="feature-h1">
+                            FEATURED ALBUM
+                        </h1>
+                    </div>
+                </div>
+            </div>      
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="feature-item">
+                        <figure class="feature-figure">
+                            <img src="img/featured/1.jpg" alt="fuature" class="img-responsive-feature">
+                            <p class="feature-p">
+                                There are many variations of passages available,
+                                but the majority have suffered Lorem alteration in some form, 
+                                by injected look even slightly believable.
+                            </p>                            
+                        </figure>
+                        <div class="feature-details">
+                            <h2 class="feature-details-h2">
+                                Power pop
+                            </h2>
+                            <hr class="feature-details-hr" />
+                            <p class="feature-details-p">
+                                1024 + <span class="feature-details-span">Like</span>
+                                825 + <span class="feature-details-span">Love</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="feature-item">
+                        <figure class="feature-figure">
+                            <img src="img/featured/1.jpg" alt="fuature" class="img-responsive-feature">
+                            <p class="feature-p">
+                                There are many variations of passages available,
+                                but the majority have suffered Lorem alteration in some form, 
+                                by injected look even slightly believable.
+                            </p>                            
+                        </figure>
+                        <div class="feature-details">
+                            <h2 class="feature-details-h2">
+                                Power pop
+                            </h2>
+                            <hr class="feature-details-hr" />
+                            <p class="feature-details-p">
+                                1024 + <span class="feature-details-span">Like</span>
+                                825 + <span class="feature-details-span">Love</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="feature-item">
+                        <figure class="feature-figure">
+                            <img src="img/featured/1.jpg" alt="fuature" class="img-responsive-feature">
+                            <p class="feature-p">
+                                There are many variations of passages available,
+                                but the majority have suffered Lorem alteration in some form, 
+                                by injected look even slightly believable.
+                            </p>                            
+                        </figure>
+                        <div class="feature-details">
+                            <h2 class="feature-details-h2">
+                                Power pop
+                            </h2>
+                            <hr class="feature-details-hr" />
+                            <p class="feature-details-p">
+                                1024 + <span class="feature-details-span">Like</span>
+                                825 + <span class="feature-details-span">Love</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="feature-item">
+                        <figure class="feature-figure">
+                            <img src="img/featured/1.jpg" alt="fuature" class="img-responsive-feature">
+                            <p class="feature-p">
+                                There are many variations of passages available,
+                                but the majority have suffered Lorem alteration in some form, 
+                                by injected look even slightly believable.
+                            </p>                            
+                        </figure>
+                        <div class="feature-details">
+                            <h2 class="feature-details-h2">
+                                Power pop
+                            </h2>
+                            <hr class="feature-details-hr" />
+                            <p class="feature-details-p">
+                                1024 + <span class="feature-details-span">Like</span>
+                                825 + <span class="feature-details-span">Love</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="feature-item">
+                        <figure class="feature-figure">
+                            <img src="img/featured/1.jpg" alt="fuature" class="img-responsive-feature">
+                            <p class="feature-p">
+                                There are many variations of passages available,
+                                but the majority have suffered Lorem alteration in some form, 
+                                by injected look even slightly believable.
+                            </p>                            
+                        </figure>
+                        <div class="feature-details">
+                            <h2 class="feature-details-h2">
+                                Power pop
+                            </h2>
+                            <hr class="feature-details-hr" />
+                            <p class="feature-details-p">
+                                1024 + <span class="feature-details-span">Like</span>
+                                825 + <span class="feature-details-span">Love</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="feature-item">
+                        <figure class="feature-figure">
+                            <img src="img/featured/1.jpg" alt="fuature" class="img-responsive-feature">
+                            <p class="feature-p">
+                                There are many variations of passages available,
+                                but the majority have suffered Lorem alteration in some form, 
+                                by injected look even slightly believable.
+                            </p>                            
+                        </figure>
+                        <div class="feature-details">
+                            <h2 class="feature-details-h2">
+                                Power pop
+                            </h2>
+                            <hr class="feature-details-hr" />
+                            <p class="feature-details-p">
+                                1024 + <span class="feature-details-span">Like</span>
+                                825 + <span class="feature-details-span">Love</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>      
+        </div>
+    </div>
+
+    <!-- download -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-ms-12 col-12">
+                <div class="down-box">
+                    <div class="row down-info">
+                        <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12">
+                            <h3 class="down-h3">
+                                Melodi, A Fully Rock Album Pro
+                            </h3>
+                            <p class="down-p">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                Ut enim sectetur adipiscing elit, 
+                                sed do eiusmod tempoad minim veniam consequat.
+                            </p>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+                            <button class="down-btn">
+                                Download Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- work with us -->
+    <div class="container-fluid" id="join">
+        <div class="work-box">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 text-center">
+                    <div class="work-box-info">
+                        <h1 class="work-h1">
+                            WORK WITH US
+                        </h1>
+                        <p class="work-p">
+                            It would be a great pleasure 
+                            to have you in our team, 
+                            follow these steps to join us.
+                        </p>
+                    </div>
+                </div>
+            </div>   
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="work-box-details">
+                        <h1 class="work-details-h1">
+                            1
+                        </h1>
+                        <p class="work-details-p">
+                            Sed ut perspi ciatis unde omnis iste natus error 
+                            sit vol uptatem accus antium totam rem aperiam, 
+                            eaque ipsa quae ab illo inventore veritatisnatus.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="work-box-details">
+                        <h1 class="work-details-h1">
+                            2
+                        </h1>
+                        <p class="work-details-p">
+                            Sed ut perspi ciatis unde omnis iste natus error 
+                            sit vol uptatem accus antium totam rem aperiam, 
+                            eaque ipsa quae ab illo inventore veritatisnatus.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="work-box-details">
+                        <h1 class="work-details-h1">
+                            3
+                        </h1>
+                        <p class="work-details-p">
+                            Sed ut perspi ciatis unde omnis iste natus error 
+                            sit vol uptatem accus antium totam rem aperiam, 
+                            eaque ipsa quae ab illo inventore veritatisnatus.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="work-box-details">
+                        <h1 class="work-details-h1">
+                            4
+                        </h1>
+                        <p class="work-details-p">
+                            Sed ut perspi ciatis unde omnis iste natus error 
+                            sit vol uptatem accus antium totam rem aperiam, 
+                            eaque ipsa quae ab illo inventore veritatisnatus.
+                        </p>
+                    </div>
+                </div>
+            </div>  
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+                    <div class="work-box-info-btn">
+                        <button class="work-btn">
+                            Join Now
+                        </button>
+                    </div>
+                </div>
+            </div>       
+        </div>
+    </div>
+
+    <!-- newlestter -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+                <div class="new-box">
+                    <h1 class="new-h1">
+                        Sign Up For Newsletter
+                    </h1>
+                    <p class="new-p">
+                        <span class="new-span-red">Contact Us</span>
+                        and let us know if you have any questions, 
+                        Don't forget to subscribe for more awesome stuff by typing mail bellow.
+                    </p>
+                    <form class="new-form">
+                        <input type="email" class="new-form-input" placeholder="Email">
+                        <button class="new-form-btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portafolio -->
+    <div class="portfolio pad" id="portafolio">
+        <div>
+            <div class="default-heading text-center">
+                <h2 class="default-h2">Portfolio</h2>
+            </div>
+        </div>
+        <div class="portfolio-content" id="portfolioOwl">
+            <div class="item">
+                <img class="img-portafolio" src="img/portfolio/1.jpg" alt="">
+                <div class="p-hover">
+                    <h3>Album Title</h3><hr/>
+                    <p>Some details about album.</p>
+                    <a href="#"><i class="fa fa-share"></i></a>
+                </div>
+            </div>
+            <div class="item">
+                <img class="img-portafolio" src="img/portfolio/2.jpg" alt="">
+                <div class="p-hover">
+                    <h3>Album Title</h3><hr/>
+                    <p>Some details about album.</p>
+                    <a href="#"><i class="fa fa-share"></i></a>
+                </div>
+            </div>
+            <div class="item">
+                <img class="img-portafolio" src="img/portfolio/3.jpg" alt="">
+                <div class="p-hover">
+                    <h3>Album Title</h3><hr/>
+                    <p>Some details about album.</p>
+                    <a href="#"><i class="fa fa-share"></i></a>
+                </div>
+            </div>
+            <div class="item">
+                <img class="img-portafolio" src="img/portfolio/4.jpg" alt="">
+                <div class="p-hover">
+                    <h3>Album Title</h3><hr/>
+                    <p>Some details about album.</p>
+                    <a href="#"><i class="fa fa-share"></i></a>
+                </div>
+            </div>
+            <div class="item">
+                <img class="img-portafolio" src="img/portfolio/5.jpg" alt="">
+                <div class="p-hover">
+                    <h3>Album Title</h3><hr/>
+                    <p>Some details about album.</p>
+                    <a href="#"><i class="fa fa-share"></i></a>
+                </div>
+            </div>
+            <div class="item">
+                <img class="img-portafolio" src="img/portfolio/6.jpg" alt="">
+                <div class="p-hover">
+                    <h3>Album Title</h3><hr/>
+                    <p>Some details about album.</p>
+                    <a href="#"><i class="fa fa-share"></i></a>
+                </div>
+            </div>
+            <div class="item">
+                <img class="img-portafolio" src="img/portfolio/7.jpg" alt="">
+                <div class="p-hover">
+                    <h3>Album Title</h3><hr/>
+                    <p>Some details about album.</p>
+                    <a href="#"><i class="fa fa-share"></i></a>
+                </div>
+            </div>
+            <div class="item">
+                <img class="img-portafolio" src="img/portfolio/8.jpg" alt="">
+                <div class="p-hover">
+                    <h3>Album Title</h3><hr/>
+                    <p>Some details about album.</p>
+                    <a href="#"><i class="fa fa-share"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <a href="#" class="portafolio-btn">View more</a>
+        </div>
+    </div>
+
+    <!-- events -->
+    <div class="container-fluid" id="events">
+        <div class="events-box">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+                    <div class="events-info-box">
+                        <h1 class="events-info-h1">
+                            coming events
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="events-details-box">
+                        <div class="events-details">
+                            <p class="events-details-p">
+                                <i class="fa fa-map-marker"></i> New York
+                            </p>                            
+                            <div class="events-fecha">
+                                <h4 class="events-details-h4">
+                                    24 <span>Jan</span>
+                                </h4> 
+                                <span class="events-details-span">6:30</span>                           
+                            </div>
+                            <figure class="events-figure">
+                                <img src="img/event/1.jpg" alt="event" class="events-img">
+                                <div class="events-hover">
+                                    <a href="#" class="events-details-a">
+                                        <span class="fa fa-play-circle"></span>
+                                    </a>
+                                </div>                            
+                            </figure>
+                        </div>
+                        <div class="events-details-info">
+                            <h1>
+                                sound of melodi in instruments
+                            </h1>
+                            <hr>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing 
+                                elit, sed do eiusmod tempor incididunt ut labore et
+                                 dolore magna aliqua, sed doconsect 
+                                etur eiusmod teme et dolore magna aliqua... 
+                                <span>more</span>
+                            </p>
+                            <button>Book Ticket</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="events-details-box">
+                        <div class="events-details">
+                            <p class="events-details-p">
+                                <i class="fa fa-map-marker"></i> New York
+                            </p>                            
+                            <div class="events-fecha">
+                                <h4 class="events-details-h4">
+                                    24 <span>Jan</span>
+                                </h4> 
+                                <span class="events-details-span">6:30</span>                           
+                            </div>
+                            <figure class="events-figure">
+                                <img src="img/event/1.jpg" alt="event" class="events-img">
+                                <div class="events-hover">
+                                    <a href="#" class="events-details-a">
+                                        <span class="fa fa-play-circle"></span>
+                                    </a>
+                                </div>                            
+                            </figure>
+                        </div>
+                        <div class="events-details-info">
+                            <h1>
+                                sound of melodi in instruments
+                            </h1>
+                            <hr>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing 
+                                elit, sed do eiusmod tempor incididunt ut labore et
+                                 dolore magna aliqua, sed doconsect 
+                                etur eiusmod teme et dolore magna aliqua... 
+                                <span>more</span>
+                            </p>
+                            <button>Book Ticket</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="events-details-box">
+                        <div class="events-details">
+                            <p class="events-details-p">
+                                <i class="fa fa-map-marker"></i> New York
+                            </p>                            
+                            <div class="events-fecha">
+                                <h4 class="events-details-h4">
+                                    24 <span>Jan</span>
+                                </h4> 
+                                <span class="events-details-span">6:30</span>                           
+                            </div>
+                            <figure class="events-figure">
+                                <img src="img/event/1.jpg" alt="event" class="events-img">
+                                <div class="events-hover">
+                                    <a href="#" class="events-details-a">
+                                        <span class="fa fa-play-circle"></span>
+                                    </a>
+                                </div>                            
+                            </figure>
+                        </div>
+                        <div class="events-details-info">
+                            <h1>
+                                sound of melodi in instruments
+                            </h1>
+                            <hr>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing 
+                                elit, sed do eiusmod tempor incididunt ut labore et
+                                 dolore magna aliqua, sed doconsect 
+                                etur eiusmod teme et dolore magna aliqua... 
+                                <span>more</span>
+                            </p>
+                            <button>Book Ticket</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="events-details-box">
+                        <div class="events-details">
+                            <p class="events-details-p">
+                                <i class="fa fa-map-marker"></i> New York
+                            </p>                            
+                            <div class="events-fecha">
+                                <h4 class="events-details-h4">
+                                    24 <span>Jan</span>
+                                </h4> 
+                                <span class="events-details-span">6:30</span>                           
+                            </div>
+                            <figure class="events-figure">
+                                <img src="img/event/1.jpg" alt="event" class="events-img">
+                                <div class="events-hover">
+                                    <a href="#" class="events-details-a">
+                                        <span class="fa fa-play-circle"></span>
+                                    </a>
+                                </div>                            
+                            </figure>
+                        </div>
+                        <div class="events-details-info">
+                            <h1>
+                                sound of melodi in instruments
+                            </h1>
+                            <hr>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing 
+                                elit, sed do eiusmod tempor incididunt ut labore et
+                                 dolore magna aliqua, sed doconsect 
+                                etur eiusmod teme et dolore magna aliqua... 
+                                <span>more</span>
+                            </p>
+                            <button>Book Ticket</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Who We Are -->
+    <div class="container-fluid" id="team">
+        <div class="who-box">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+                  <div class="who-box-title">
+                      <h1>
+                          Who We Are?
+                      </h1>
+                  </div>  
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div class="who-box-info">
+                        <h3><span class="fa fa-heartbeat"></span> What we do?</h3>
+                        <p>
+                            Duis aute irure dolor in reprehenderit in voluptate velit 
+                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+                            occaecat cupidatat non proident, sunt in culpa qui officia 
+                            deserunt mollit occaecat cupidatat non id est laborum.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div class="who-box-info">
+                        <h3><span class="fa fa-hand-o-up"></span> Why choose us?</h3>
+                        <p>
+                            Duis aute irure dolor in reprehenderit in voluptate velit 
+                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+                            occaecat cupidatat non proident, sunt in culpa qui officia 
+                            deserunt mollit occaecat cupidatat non id est laborum.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div class="who-box-info">
+                        <h3><span class="fa fa-map-marker"></span> Where we are?</h3>
+                        <p>
+                            Duis aute irure dolor in reprehenderit in voluptate velit 
+                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+                            occaecat cupidatat non proident, sunt in culpa qui officia 
+                            deserunt mollit occaecat cupidatat non id est laborum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="who-box-social">
+                        <div class="who-figure-img">
+                            <img src="img/user/1.jpg" alt="user">
+                            <div class="who-figure-icon">
+                                <a href="#">
+                                    <span class="fa fa-facebook"></span>
+                                </a>
+                                <a href="#">
+                                    <span class="fa fa-google-plus"></span>
+                                </a>
+                                <a href="#">
+                                    <span class="fa fa-linkedin"></span>
+                                </a>
+                                <a href="#">
+                                    <span class="fa fa-twitter"></span>
+                                </a>
+                            </div>
+                        </div>
+                        <h3>
+                            Stacey Kowalski
+                        </h3>
+                        <p>
+                            Guitarist
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="who-box-social">
+                        <div class="who-figure-img">
+                            <img src="img/user/1.jpg" alt="user">
+                            <div class="who-figure-icon">
+                                <a href="#">
+                                    <span class="fa fa-facebook"></span>
+                                </a>
+                                <a href="#">
+                                    <span class="fa fa-google-plus"></span>
+                                </a>
+                                <a href="#">
+                                    <span class="fa fa-linkedin"></span>
+                                </a>
+                                <a href="#">
+                                    <span class="fa fa-twitter"></span>
+                                </a>
+                            </div>
+                        </div>
+                        <h3>
+                            Stacey Kowalski
+                        </h3>
+                        <p>
+                            Guitarist
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="who-box-social">
+                        <div class="who-figure-img">
+                            <img src="img/user/1.jpg" alt="user">
+                            <div class="who-figure-icon">
+                                <a href="#">
+                                    <span class="fa fa-facebook"></span>
+                                </a>
+                                <a href="#">
+                                    <span class="fa fa-google-plus"></span>
+                                </a>
+                                <a href="#">
+                                    <span class="fa fa-linkedin"></span>
+                                </a>
+                                <a href="#">
+                                    <span class="fa fa-twitter"></span>
+                                </a>
+                            </div>
+                        </div>
+                        <h3>
+                            Stacey Kowalski
+                        </h3>
+                        <p>
+                            Guitarist
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="who-box-social">
+                        <div class="who-figure-img">
+                            <img src="img/user/1.jpg" alt="user">
+                            <div class="who-figure-icon">
+                                <a href="#">
+                                    <span class="fa fa-facebook"></span>
+                                </a>
+                                <a href="#">
+                                    <span class="fa fa-google-plus"></span>
+                                </a>
+                                <a href="#">
+                                    <span class="fa fa-linkedin"></span>
+                                </a>
+                                <a href="#">
+                                    <span class="fa fa-twitter"></span>
+                                </a>
+                            </div>
+                        </div>
+                        <h3>
+                            Stacey Kowalski
+                        </h3>
+                        <p>
+                            Guitarist
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- location -->
+    <div class="container-fluid">
+        <div class="location-box">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+                    <div class="location-box-title">
+                        <h1>
+                            UPCOMING MEETS
+                        </h1>
+                    </div> 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+                    <div class="location-box-map">
+                        <img src="img/flat/map.png" alt="map">
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact us -->
+    <div class="container-fluid" id="contact">
+        <div class="contact-box">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+                    <div class="contact-box-title">
+                        <h1>
+                            Contact Us
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 text-center">
+                    <div class="contact-box-info">
+                        <span class="fa fa-street-view"></span>
+                        <p>
+                            #30/67, 5th Street, Mega Market Circle, New Delhi - 625001
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 text-center">
+                    <div class="contact-box-info">
+                        <span class="fa fa-wifi"></span>
+                        <p>
+                            music.site@melodi.com    
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 text-center">
+                    <div class="contact-box-info">
+                        <span class="fa fa-phone"></span>
+                        <p>
+                            555 555 5555     
+                       </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+                    <div class="contact-box-info-extra">
+                        <p>
+                            Do you have any idea in your mind? Drop us a line.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="contact-box-form">
+                        <label for="name">Name</label>
+                        <input type="text" placeholder="Enter name">
+                    </div>
+                    <div class="contact-box-form">
+                        <label for="name">Email</label>
+                        <input type="text" placeholder="Enter email">
+                    </div>
+                    <div class="contact-box-form">
+                        <label for="name">Phone</label>
+                        <input type="text" placeholder="Enter phone">                        
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="contact-box-form">
+                        <label for="message">Message</label>
+                        <textarea name="message" rows="9" placeholder="Enter message" class="contact-form-textarea"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+                    <div class="contact-box-btn">
+                        <button>Send Message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="container-fluid">
+        <div class="footer-box">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+                    <div class="footer-box-social">
+                        <a href="#" class="footer-fb">
+                            <span class="fa fa-facebook"></span>
+                        </a>
+                        <a href="#" class="footer-go">
+                            <span class="fa fa-google-plus"></span>
+                        </a>
+                        <a href="#" class="footer-in">
+                            <span class="fa fa-linkedin"></span>
+                        </a>
+                        <a href="#" class="footer-tw">
+                            <span class="fa fa-twitter"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+                    <div class="footer-box-copyright">
+                        <h5>
+                            &#9400 Copyright 20120 All Right Reserved By Desarrollador Gerson Daniel Boche Peralta
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </script>
+    <!-- scripts -->
+    <script src="js/main.js"></script>
+    <!-- scripts de librerias -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script> 
+    <script src="js/owl.carousel.min.js"></script>
+</body>
+</html>
